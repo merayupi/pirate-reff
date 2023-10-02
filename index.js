@@ -96,7 +96,6 @@ const main = async (codeReff) => {
 }
 
 (async ()=>{
-    //https://piratenation.game/play/?ref=B0EfBm
     const linkReff = rl.question("enter link reff: ")
     const filter = linkReff.split("=")
     const codeReff = filter[1]
